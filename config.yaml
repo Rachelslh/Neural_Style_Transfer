@@ -1,0 +1,20 @@
+backbone_model: vgg
+pretrained_weights: pretrained-model/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
+img_size: 400
+learning_rate: 0.01
+epochs: 2500
+
+content_image_path: images/louvre.jpg
+style_image_path: images/monet.jpg
+
+content_layer: block5_conv4
+style_layers_with_weights: 
+  'block1_conv1': 0.2
+  'block2_conv1': 0.2
+  'block3_conv1': 0.2
+  'block4_conv1': 0.2
+  'block5_conv1': 0.2
+
+
+alpha: 10
+beta: 40
