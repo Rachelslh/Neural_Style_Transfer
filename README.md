@@ -44,6 +44,8 @@ This repository provides an implementation of neural style transfer, a technique
 ## Example
 
 To demonstrate the usage of the neural style transfer algorithm, this repository includes sample content and style images. You can use the provided images or replace them with your own images to experiment with different artistic styles.
+<img src="images/result1.png" alt="drawing" width="700"/>
+<img src="images/result2.png" alt="drawing" width="700"/>
 
 ## Contributing
 
