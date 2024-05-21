@@ -3,14 +3,14 @@ from omegaconf import OmegaConf
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import imshow
 
-from model import NeuralStyleTransferModel, tensor2image
+from src.model import NeuralStyleTransferModel, tensor2image
 
 
 if __name__=="__main__":
     tf.random.set_seed(272)
     
     # Read from config
-    config = OmegaConf.load("config.yaml")
+    config = OmegaConf.load("src/configs/config.yaml")
     nst_model = NeuralStyleTransferModel(**config)
     
     for i in range(config["epochs"]):

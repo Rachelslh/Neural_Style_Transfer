@@ -1,5 +1,5 @@
 backbone_model: vgg
-pretrained_weights: pretrained-model/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
+pretrained_weights: pretrained-models/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
 img_size: 400
 learning_rate: 0.01
 epochs: 2500
